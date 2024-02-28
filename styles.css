@@ -3,11 +3,16 @@
 body {
     font-family: 'Sixtyfour';
     background-color: #953f00;
+    margin:0
 
 }
 h1 {
     text-align: center;
     color:blue
+}
+nav {
+    position: sticky;
+    top: 0;
 }
 nav ul{
     list-style-type: none;
@@ -32,4 +37,7 @@ img {
 .text-center {
     text-align: center;
   }
-  
+nav a:active{
+    background-color: white;
+}
+pnth-child()
